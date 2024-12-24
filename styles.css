@@ -108,3 +108,7 @@ footer {
     color: #0077b6;
     font-weight: bold;
 }
+.responsive-img{
+    height: 400px;
+    width: 100%;
+}
