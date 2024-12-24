@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natación - Deporte Completo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Natación</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#estilos">Estilos</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>¿Qué es la Natación?</h2>
+            <p>
+                La natación es un deporte que consiste en el movimiento y desplazamiento a través del agua utilizando diferentes estilos de nado. 
+                Es una actividad accesible para personas de todas las edades y niveles de habilidad.
+            </p>
+            <img src="https://via.placeholder.com/800x300" alt="Imagen representativa de la natación" class="responsive-img">
+        </section>
+
+        <section id="beneficios">
+            <h2>Beneficios de la Natación</h2>
+            <ul>
+                <li>Fortalece los músculos y mejora la postura.</li>
+                <li>Es una excelente actividad para el corazón.</li>
+                <li>Ayuda a reducir el estrés y mejorar el bienestar mental.</li>
+                <li>Es una actividad de bajo impacto, ideal para personas con lesiones.</li>
+                <li>Mejora la capacidad pulmonar y la resistencia.</li>
+            </ul>
+        </section>
+
+        <section id="estilos">
+            <h2>Estilos de Natación</h2>
+            <div class="styles-grid">
+                <article>
+                    <h3>Crol</h3>
+                    <p>Es el estilo más rápido y común, ideal para ganar velocidad y resistencia.</p>
+                </article>
+                <article>
+                    <h3>Espalda</h3>
+                    <p>Se realiza boca arriba y ayuda a trabajar la espalda y mejorar la postura.</p>
+                </article>
+                <article>
+                    <h3>Pecho</h3>
+                    <p>Conocido como el estilo rana, es el más relajado y técnico.</p>
+                </article>
+                <article>
+                    <h3>Mariposa</h3>
+                    <p>Un estilo avanzado que requiere gran fuerza y coordinación.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="consejos">
+            <h2>Consejos para Mejorar tu Técnica</h2>
+            <ol>
+                <li>Mantén una buena postura: Mantén el cuerpo alineado para reducir la resistencia en el agua.</li>
+                <li>Practica la respiración: Aprende a respirar de manera eficiente en cada estilo.</li>
+                <li>Usa equipo adecuado: Gafas, gorro y un buen traje de baño son esenciales.</li>
+                <li>Haz calentamientos: Estira antes y después de nadar para evitar lesiones.</li>
+                <li>Entrena regularmente: La constancia es clave para mejorar tu rendimiento.</li>
+            </ol>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <blockquote>
+                "La natación me ayudó a superar mi estrés y mejorar mi condición física. Es un deporte increíble." 
+                <cite>- Laura G.</cite>
+            </blockquote>
+            <blockquote>
+                "Desde que empecé a nadar, he notado una gran diferencia en mi fuerza y resistencia." 
+                <cite>- Carlos M.</cite>
+            </blockquote>
+        </section>
+
+        <section id="calculadora">
+            <h2>Calculadora de Calorías Quemadas</h2>
+            <p>Introduce tus datos para calcular cuántas calorías quemas al nadar.</p>
+            <form id="calorieCalculator">
+                <label for="weight">Peso (kg):</label>
+                <input type="number" id="weight" name="weight" required min="30" max="200" step="0.1">
+                
+                <label for="duration">Duración (min):</label>
+                <input type="number" id="duration" name="duration" required min="5" max="300">
+        
+                <label for="style">Estilo de Natación:</label>
+                <select id="style" name="style" required>
+                    <option value="crol">Crol</option>
+                    <option value="espalda">Espalda</option>
+                    <option value="pecho">Pecho</option>
+                    <option value="mariposa">Mariposa</option>
+                </select>
+        
+                <button type="button" id="calculateCalories">Calcular</button>
+            </form>
+            <p id="caloriesResult"></p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Natación. Todos los derechos reservados.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

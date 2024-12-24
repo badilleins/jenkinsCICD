@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f9f9;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #eaf4f4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #0077b6;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #005f8a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#calculadora {
+    background-color: #f1f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#calorieCalculator label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#calorieCalculator input,
+#calorieCalculator select {
+    padding: 8px;
+    width: calc(100% - 20px);
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#calorieCalculator button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calorieCalculator button:hover {
+    background-color: #005f8a;
+}
+
+#caloriesResult {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #0077b6;
+    font-weight: bold;
+}
